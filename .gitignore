@@ -1,0 +1,3 @@
+frontend/yarn.lock
+**/node_modules
+mongo-data

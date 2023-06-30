@@ -1,0 +1,9 @@
+.pin .pin-icon{
+    color: #ABC4FF;
+    height: 100px;
+}
+
+.pin .pin-text {
+    color: blue;
+    font-weight: bold;
+}

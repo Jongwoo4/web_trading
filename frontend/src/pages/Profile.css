@@ -1,0 +1,74 @@
+.avator {
+    height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.avator-div{
+    width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
+  border-style: solid;
+  border-color: #FFFFFF;
+  position: relative;
+  margin: 1%;
+}
+
+.avator-icon {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+
+.header-box {
+    background: #EDF2FB/*#C1D3FE*/;
+    border-radius: 5px;
+    box-shadow: 10px 10px #D7E3FC;
+}
+
+.line{
+    margin-left:2px;
+    margin-right: 2px;
+    border-top: 4px solid #C1D3FE;
+}
+
+.sub-box {
+    background: #EDF2FB;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sub-box .MuiTextField-root{
+    width: 25ch;
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.main-box{
+    margin: 2% 20%;
+}
+
+.header-box .text{
+    padding: 20px 10px;
+    float:left;
+}
+
+.button{
+    background-color: #3f51b5 !important;
+  }
+
+  .done{
+    background-color: darkgreen !important;
+  }

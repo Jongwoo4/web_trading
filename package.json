@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "setup": "npm install && cd frontend && yarn install && cd ..",
+    "startall": "cd frontend && yarn build && cd .. && npx nodemon server.js",
+    "start": "node server.js",
+    "debug": "nodemon server.js",
+    "heroku-postbuild": "cd frontend && yarn install && yarn build"
+  },
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.12",
+    "bcrypt": "^5.0.1",
+    "canvas": "^2.9.1",
+    "cloudinary": "^1.29.0",
+    "connect-mongo": "^4.6.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.8"
+  }
+}

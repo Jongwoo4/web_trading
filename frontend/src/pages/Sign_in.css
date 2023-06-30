@@ -1,0 +1,41 @@
+.box{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: #ABC4FF;
+    border-radius: 15px;
+    background-color: #EDF2FB;
+}
+
+.form .button_sign_in{
+    margin-top: 50px;
+    background-color: #ABC4FF;
+    color:black;
+}
+
+.form{
+    text-align: center;
+}
+
+.signin{
+    color: #ABC4FF;
+}
+
+.error{
+    color: black;
+    background-color: rgb(255, 117, 117);
+    margin-bottom: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.appname {
+    color: #ABC4FF;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    text-align:center;
+    
+}

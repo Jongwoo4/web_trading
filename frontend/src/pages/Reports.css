@@ -1,0 +1,50 @@
+.report{
+    margin:1%;
+    padding-top: 5px;
+    font-size: 140%;
+    background: #EDF2FB !important;
+}
+
+
+.box{
+    padding: 2%;
+}
+
+
+.buttons{
+    font-size: 15px;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+    border-color: #C1D3FE;
+    background-color: #C1D3FE;
+    font-weight: bold;
+}
+
+.title{
+  color: #ABC4FF;
+  font-size: 50px;
+  display: block;
+  padding-top: 15px; 
+  }
+
+.buttons:hover{
+    background-color: #ABC4FF;
+}
+.buttons2{
+    font-size: 15px;
+    height: 40px;
+    width: 47%;
+    border-radius: 5px;
+    border-color: #C1D3FE;
+    background-color: #C1D3FE;
+    font-family: "Lucida Console";
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.buttons2:hover{
+    background-color: #ABC4FF;
+}

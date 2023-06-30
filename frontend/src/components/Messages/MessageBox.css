@@ -1,0 +1,128 @@
+:root {
+    --messageBorder: 1px solid;
+
+    --leftBackground: rgb(237, 242, 251);
+    --leftBorderColor: rgb(245, 245, 245);
+    --leftBorder: var(--messageBorder) var(--leftBorderColor);
+    
+    --rightBackground: rgb(171, 196, 255);
+    --rightBorderColor: var(--leftBorderColor);
+    --rightBorder: var(--messageBorder) var(--rightBorderColor);
+
+    --leftMessageWidth: 200px;
+    --rightMessageWidth: 200px;
+}
+
+.container {
+    width: 400px;
+    padding: 10px;
+}
+
+.leftMessage {
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--leftBackground);
+    width: var(--leftMessageWidth);
+    min-height: 40px;
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: var(--leftBorder);
+    border-radius: 10px;
+}
+
+.rightMessage {
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: calc(100% - 20px - var(--rightMessageWidth));
+    padding: 10px;
+    background-color: var(--rightBackground);
+    width: var(--rightMessageWidth);
+    min-height: 40px;
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: var(--rightBorder);
+    border-radius: 10px;
+}
+
+.messageContent {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    text-overflow: clip;
+}
+
+.rightTimestamp {
+    position: absolute;
+    font-size: .85em;
+    color: grey;
+    font-weight: 300;
+    bottom: -20px;
+    right: 5px;
+}
+
+.leftTimestamp {
+    position: absolute;
+    font-size: .85em;
+    color: grey;
+    font-weight: 300;
+    bottom: -20px;
+    left: 5px;
+}
+
+.leftMessage:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    
+    bottom: 0;
+    left: -15px;
+
+    border-bottom: 15px solid var(--leftBackground);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.leftMessage:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    
+    bottom: -1px;
+    left: -17px;
+
+    border-bottom: 17px solid var(--leftBorderColor);
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+}
+
+.rightMessage:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    
+    bottom: 0;
+    right: -15px;
+
+    border-bottom: 15px solid var(--rightBackground);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.rightMessage:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    
+    bottom: -1px;
+    right: -17px;
+
+    border-bottom: 17px solid var(--rightBorderColor);
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+}

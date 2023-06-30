@@ -1,0 +1,29 @@
+
+.sectionContainer {
+    height: calc(100% - 42px);
+    min-width: 500px;
+    background-color: white;
+    border-bottom: 1px solid transparent;
+    overflow-y: hidden;
+    border-right: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+
+.nameContainer {
+    min-width: 500px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    position: relative;
+    color: rgb(171, 196, 255);
+    background-color: rgb(237, 242, 251);
+}
+
+.messageContainer {
+    background-color: transparent;
+    overflow-y: scroll;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 80px;
+}

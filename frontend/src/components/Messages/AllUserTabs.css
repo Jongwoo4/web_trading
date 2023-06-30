@@ -1,0 +1,18 @@
+.previewContainer {
+    border: 1px solid lightgrey;
+    display: inline-block;
+    height: 100%;
+    overflow-y: clip;
+}
+
+.titleContainer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: rgb(171, 196, 255);
+    background-color: rgb(237, 242, 251);
+}
+
+.tabContainer {
+    border-top: 1px solid lightgrey;
+}

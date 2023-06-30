@@ -1,0 +1,79 @@
+.post-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:220px;
+  }
+
+
+  .main-box{
+    margin: 2% 20%;
+    /*box-shadow: 10px 10px #D7E3FC*/;
+}
+
+.details-box{
+  background: #EDF2FB;
+    padding: 10px;
+  border-radius: 5px;
+  
+}
+.box-shadow{
+  box-shadow: 10px 10px #D7E3FC;
+}
+.details-box .MuiTextField-root{
+  width: 25ch;
+  margin: 5px 10px;
+}
+
+.button-link{
+  text-decoration: none;
+}
+
+.space{
+  margin-top: 10px;
+}
+
+.full-textfield{
+  width: 98% !important;
+}
+
+.textfield60{
+  width: 60% !important;
+}
+.textfield40{
+  width: 30% !important;
+}
+.img-file{
+  display: none;
+}
+
+.title
+{
+  color: #ABC4FF;
+  font-size: 50px;
+  display: block;
+  padding-top: 15px; 
+  
+}
+
+.left-padding
+{
+  padding-left: 30px;
+}
+
+.myposts{
+  padding: 30px;
+  display: block;
+}
+
+.posts-background{
+  background: #EDF2FB !important;
+}
+
+.text-button{
+  color: #3f51b5 !important;
+}
+
+.button{
+  background-color: #3f51b5 !important;
+}
